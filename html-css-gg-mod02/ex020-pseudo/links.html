@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitando Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image:linear-gradient(to top,#584c3b,#ffdbae);
+            background-attachment: fixed;
+        }
+        h1{
+            text-align: center;
+            background-image:linear-gradient(to top, #ffd6a0,#a3805d73);
+            text-shadow: 1px 1px 1px #886c4bc0;
+            border-radius: 5px;
+        }
+        ul{
+           width: 218px;
+           margin: auto;
+           padding: 19px;
+           background-image:linear-gradient(to top, #e8f1fb,#bbbdbfa5);
+           border-radius: 10px;
+        }
+        a{
+            color: blue;
+            font-weight: 548;
+            text-decoration: none;
+        }
+        a:visited{
+            color: ;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: #ff4545;
+        }
+        a:active{
+            color: #f338f3;
+        }
+        a::before{
+            content: '=> ';
+        }
+        a::after{
+            content: ' <=';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">Repositório Github</a></li>
+
+        <li><a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank" class="especial">Canal no YouTube</a></li>
+
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">Site do CursoEmVideo</a></li>
+    </ul>
+</body>
+</html>

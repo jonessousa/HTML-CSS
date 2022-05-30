@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Tapestry&display=swap');
+        body{
+            background-image: linear-gradient(to bottom,#ccdfc9,#9fad9c);
+            background-attachment: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        header{
+            background-color: #ccdfc9;
+            padding: 5px;
+            margin: 5px;
+        }
+        h1{
+            font-family: 'Kaushan script';
+            background-color: #c8dac4;
+            text-align: center;
+            text-shadow: 2px 2px 2px #b2c5adab;
+        }
+        nav{
+            padding: 5px;
+            box-shadow: 1px 1px 2px #aab9a8b0;
+        }
+        nav>a{
+            margin-right: 20px;
+            text-decoration: none;
+        }
+        nav>a:hover{
+            color: rgb(211, 1, 230);
+            text-decoration: underline;
+        }
+        main{
+            background-color: #ccdfc9;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 10px 10px;
+            box-shadow: 2px 2px 2px #ccdfc9;
+        }
+        aside{
+            background-color: #a0b09e;
+            color: #abff9d;
+        }
+        footer{
+            text-align: center;
+            background-color: #a0b09e;
+            color: aqua;
+            font-weight: bold;
+            padding: 4px;
+            margin: 5px;
+            margin-top: 10px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alguns Estilos</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque delectus corrupti odio eius dicta beatae ipsa dolorum error aliquam, dolore neque doloremque quae laborum obcaecati ullam pariatur consequuntur velit tempore?</p>
+                <aside>
+                    <p>Artigo escrito por Raimundo Dias</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolovido por JonesCarlos</p>
+    </footer>
+</body>
+</html>
