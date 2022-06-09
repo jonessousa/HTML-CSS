@@ -21,6 +21,13 @@
             background-color: rgb(255, 238, 218);
             color: rgb(4, 0, 255);
         }
+        caption{
+            font-size: 1.2em;
+            padding: 5px;
+        }
+        tbody > tr:nth-child(even){
+            background-color: rgba(196, 184, 214, 0.416);
+        }
         table{
             min-width: 60vw;
             margin: auto;
@@ -42,10 +49,11 @@
         Tabelas Grandes
     </h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -156,7 +164,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="num"><strong>213.317.639</strong></td>
             </tr>
         </tfoot>
