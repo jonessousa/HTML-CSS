@@ -1,3 +1,9 @@
 @charset "UTF-8";
-/* Modo en pe(portrait) */
+/* Modo em pe(portrait) */
+
+body{
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-size: 80%;
+    background-position: center bottom;
+}
 
