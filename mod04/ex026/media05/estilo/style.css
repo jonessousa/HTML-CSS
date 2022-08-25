@@ -25,6 +25,7 @@ span#menuBurguer{
     padding: 5px;
     text-align: center;
     cursor: pointer;
+    transition: .5s ;
 }
 span#menuBurguer:hover{
     background-color: #fff;
