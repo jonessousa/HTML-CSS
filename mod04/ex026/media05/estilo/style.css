@@ -18,8 +18,21 @@ header > h1{
     padding: 10px;
 }
 
-nav{
+span#menuBurguer{
+    background-color: #000;
+    color: #fff;
     display: block;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+span#menuBurguer:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+nav{
+    display: none;
 }
 
 nav > ul{
